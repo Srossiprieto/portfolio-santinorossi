@@ -9,7 +9,7 @@ import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
-interface ResumeCardProps {
+interface YouTubeCardProps {
   logoUrl: string;
   altText: string;
   title: string;
@@ -18,8 +18,10 @@ interface ResumeCardProps {
   badges?: readonly string[];
   period: string;
   description?: string;
+  videos: readonly { title: string; icon: JSX.Element; link: string }[];
 }
-export const ResumeCard = ({
+
+export const YouTubeCard = ({
   logoUrl,
   altText,
   title,
@@ -28,10 +30,11 @@ export const ResumeCard = ({
   badges,
   period,
   description,
-}: ResumeCardProps) => {
+  videos,
+}: YouTubeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  const handleClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
     if (description) {
       e.preventDefault();
       setIsExpanded(!isExpanded);
@@ -39,14 +42,9 @@ export const ResumeCard = ({
   };
 
   return (
-    <Link
-      href={href || "#"}
-      target="_blank"
-      className="block cursor-pointer"
-      onClick={handleClick}
-    >
+    <div className="block cursor-pointer" onClick={handleClick}>
       <Card className="flex">
-        <div className="flex-none">
+        <div className="absolute -left-6 top-[-30px] flex items-center justify-center bg-white rounded-full">
           <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
             <AvatarImage
               src={logoUrl}
@@ -56,9 +54,9 @@ export const ResumeCard = ({
             <AvatarFallback>{altText[0]}</AvatarFallback>
           </Avatar>
         </div>
-        <div className="flex-grow ml-4 items-center flex-col group">
+        <div className="flex-grow ml-7 items-center flex-col group">
           <CardHeader>
-            <div className="flex items-center justify-between gap-x-2 text-base">
+            <div className="flex items-center justify-between gap-x-2 text-base ">
               <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
                 {title}
                 {badges && (
@@ -92,7 +90,6 @@ export const ResumeCard = ({
               initial={{ opacity: 0, height: 0 }}
               animate={{
                 opacity: isExpanded ? 1 : 0,
-
                 height: isExpanded ? "auto" : 0,
               }}
               transition={{
@@ -102,10 +99,27 @@ export const ResumeCard = ({
               className="mt-2 text-xs sm:text-sm"
             >
               {description}
+              <div className="mt-4 space-y-2">
+                {videos.map((video, index) => (
+                  <div key={index} className="flex items-center space-x-2">
+                    {video.icon}
+                    <Link
+                      href={video.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:underline"
+                      onClick={(e) => e.stopPropagation()} 
+                    >
+                      {video.title}
+                    </Link>
+
+                  </div>
+                ))}
+              </div>
             </motion.div>
           )}
         </div>
       </Card>
-    </Link>
+    </div>
   );
 };
