@@ -140,178 +140,168 @@ Applied agile methodologies and best development practices within the team.`,
       end: "2024",
     },
   ],
-  projects: [
-    {
-      title: "FusionDevs - Software",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Gestion de stock, ventas, compras, usuarios, productos, categorias, proveedores, clientes, analíticas, exportación de datos en pdf/excel, interfaz intuitiva, responsive, manejo de sesiones y rutas privadas.Integración de la api Afip para facturación electrónica.",
-      technologies: [
-        "Java",
-        "Spring Boot",
-        "PostgreSQL",
-        "React",
-        "TypeScript",
-        "TailwindCSS",
-        "Docker"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "API - FACTUS facturación electrónica",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Sistema full-stack de facturación electrónica integrado con la API de Halltech Colombia. Incluye autenticación OAuth2, gestión de facturas electrónicas, panel administrativo moderno y sistema de paginación avanzado. Desarrollado con arquitectura modular y diseño responsive.",
-      technologies: [
-        "React",
-        "Typescript",
-        "TailwindCSS",
-        "NodeJS",
-        "Express",
-        "PostgreSQL",
-        "Prisma",
-        "Docker"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739055106/uub8eyjqlktcyyherqfb.mp4",
-    },
-    {
-      title: "ScanOrderly",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
-      active: true,
-      description:
-        "Software personalizado diseñado principalmente para restaurantes, pero adaptable a diversos tipos de negocios. Gestión de ordenes en tiempo real, control de inventarios, análisis detallado de ventas y gastos, exportación de datos en pdf/excel e interfaz intuitiva, más información en la landing page.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Zustand",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.youtube.com/watch?v=P0YaegQU62I&t=16s",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Admin Panel - Software",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Panel de administración para gestionar usuarios, productos, categorías, ventas, compras, proveedores, clientes, analíticas, exportación de datos en pdf/excel, interfaz intuitiva, responsive, manejo de sesiones y rutas privadas.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Zustand"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739055106/uub8eyjqlktcyyherqfb.mp4",
-    },
-    {
-      title: "PixiFi",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "E-commerce full-stack, con un diseño modular y escalable. Redux junto con Redux Toolkit para la gestión eficiente del estado global.El backend utiliza Node.js, Express y MongoDB con Mongoose para la persistencia de datos. Implementación de JWT para autenticación y rutas privadas.",
-      technologies: [
-        "React",
-        "StyledComponents",
-        "MongoDB",
-        "Mongoose",
-        "Express",
-        "NodeJS",
-        "TypeScript",
-        "Redux Toolkit",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://pixify-swart.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Srossiprieto/Integrador-React-Sr",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    
-    
-    {
-      title: "ScanOrderly - Landing Page",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Landing page para el software ScanOrderly, con información detallada sobre el producto, características, precios y contacto. Diseño futurista y minimalista, con animaciones y efectos visuales. Totalmente responsive.",
-      technologies: [
-        "React",
-        "Typescript",
-        "TailwindCSS",
-        "NodeJS",
-        "Express"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739055106/uub8eyjqlktcyyherqfb.mp4",
-    }
-  ],
+    projects: [
+      {
+        title: "FusionDevs - Software",
+        href: "https://llm.report",
+        dates: "📌 2025",
+        active: true,
+        description: "Stock management, sales, purchases, users, products, categories, suppliers, customers, analytics, data export in PDF/Excel, intuitive and responsive interface, session handling, and private routes. Integration with the AFIP API for electronic invoicing.",
+        technologies: [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL",
+          "React",
+          "TypeScript",
+          "TailwindCSS",
+          "PHP",
+          "Docker"
+        ],
+        links: [
+          {
+            type: "Website",
+            href: "https://llm.report",
+            icon: <Icons.globe className='size-3' />
+          },
+          {
+            type: "Source",
+            href: "https://github.com/dillionverma/llm.report",
+            icon: <Icons.github className='size-3' />
+          }
+        ],
+        image: "",
+        video: "https://cdn.llm.report/openai-demo.mp4"
+      },
+      {
+        title: "API - FACTUS Electronic Invoicing",
+        href: "https://automatic.chat",
+        dates: "📌 2025",
+        active: true,
+        description: "Full-stack electronic invoicing system integrated with the Halltech Colombia API. Includes OAuth2 authentication, electronic invoice management, a modern admin panel, and an advanced pagination system. Developed with modular architecture and a responsive design.",
+        technologies: [
+          "React",
+          "Typescript",
+          "TailwindCSS",
+          "NodeJS",
+          "Express",
+          "PostgreSQL",
+          "Prisma",
+          "Docker"
+        ],
+        links: [
+          {
+            type: "Website",
+            href: "https://automatic.chat",
+            icon: <Icons.globe className='size-3' />
+          }
+        ],
+        image: "",
+        video: "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739055106/uub8eyjqlktcyyherqfb.mp4"
+      },
+      {
+        title: "ScanOrderly",
+        href: "https://chatcollect.com",
+        dates: "📌 2024",
+        active: true,
+        description: "Custom software primarily designed for restaurants but adaptable to various types of businesses. Real-time order management, inventory control, detailed sales and expense analysis, data export in PDF/Excel, and an intuitive interface. More information is available on the landing page.",
+        technologies: [
+          "Next.js",
+          "Typescript",
+          "PostgreSQL",
+          "Prisma",
+          "TailwindCSS",
+          "Zustand"
+        ],
+        links: [
+          {
+            type: "Website",
+            href: "https://www.youtube.com/watch?v=P0YaegQU62I&t=16s",
+            icon: <Icons.globe className='size-3' />
+          }
+        ],
+        image: "",
+        video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4"
+      },
+      {
+        title: "Admin Panel - Software",
+        href: "https://automatic.chat",
+        dates: "📌 2024",
+        active: true,
+        description: "Admin panel for managing users, products, categories, sales, purchases, suppliers, customers, analytics, data export in PDF/Excel, intuitive and responsive interface, session handling, and private routes.",
+        technologies: [
+          "Next.js",
+          "Typescript",
+          "PostgreSQL",
+          "Prisma",
+          "TailwindCSS",
+          "Zustand"
+        ],
+        links: [
+          {
+            type: "Website",
+            href: "https://automatic.chat",
+            icon: <Icons.globe className='size-3' />
+          }
+        ],
+        image: "",
+        video: "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739055106/uub8eyjqlktcyyherqfb.mp4"
+      },
+      {
+        title: "PixiFi",
+        href: "https://magicui.design",
+        dates: "📌 2023",
+        active: true,
+        description: "Full-stack e-commerce with a modular and scalable design. Redux combined with Redux Toolkit for efficient global state management. The backend uses Node.js, Express, and MongoDB with Mongoose for data persistence. JWT authentication implementation for private routes.",
+        technologies: [
+          "React",
+          "StyledComponents",
+          "MongoDB",
+          "Mongoose",
+          "Express",
+          "NodeJS",
+          "TypeScript",
+          "Redux Toolkit"
+        ],
+        links: [
+          {
+            type: "Website",
+            href: "https://pixify-swart.vercel.app/",
+            icon: <Icons.globe className='size-3' />
+          },
+          {
+            type: "Source",
+            href: "https://github.com/Srossiprieto/Integrador-React-Sr",
+            icon: <Icons.github className='size-3' />
+          }
+        ],
+        image: "",
+        video: "https://cdn.llm.report/openai-demo.mp4"
+      },
+      {
+        title: "ScanOrderly - Landing Page",
+        href: "https://automatic.chat",
+        dates: "📌 2024",
+        active: true,
+        description: "Landing page for the ScanOrderly software, with detailed information about the product, features, pricing, and contact details. Futuristic and minimalist design, with animations and visual effects. Fully responsive.",
+        technologies: [
+          "React",
+          "Typescript",
+          "TailwindCSS",
+          "NodeJS",
+          "Express"
+        ],
+        links: [
+          {
+            type: "Website",
+            href: "https://automatic.chat",
+            icon: <Icons.globe className='size-3' />
+          }
+        ],
+        image: "",
+        video: "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739055106/uub8eyjqlktcyyherqfb.mp4"
+      }
+    ],
+  
   Youtube: [
     {
       title: "Srossicode",
