@@ -143,8 +143,8 @@ Applied agile methodologies and best development practices within the team.`,
     projects: [
       {
         title: "FusionDevs - Software",
-        href: "https://llm.report",
         dates: "📌 2025",
+        href: "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739248554/SalesSystemFusionDevs_lzbgwl.mp4",
         active: true,
         description: "Stock management, sales, purchases, users, products, categories, suppliers, customers, analytics, data export in PDF/Excel, intuitive and responsive interface, session handling, and private routes. Integration with the AFIP API for electronic invoicing.",
         technologies: [
@@ -157,24 +157,12 @@ Applied agile methodologies and best development practices within the team.`,
           "PHP",
           "Docker"
         ],
-        links: [
-          {
-            type: "Website",
-            href: "https://llm.report",
-            icon: <Icons.globe className='size-3' />
-          },
-          {
-            type: "Source",
-            href: "https://github.com/dillionverma/llm.report",
-            icon: <Icons.github className='size-3' />
-          }
-        ],
         image: "",
-        video: "https://cdn.llm.report/openai-demo.mp4"
+        video: "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739248554/SalesSystemFusionDevs_lzbgwl.mp4"
       },
       {
         title: "API - FACTUS Electronic Invoicing",
-        href: "https://automatic.chat",
+        href: "https://youtu.be/iW-4369aX4s?si=u1pLrXyuXHtKxUBL",
         dates: "📌 2025",
         active: true,
         description: "Full-stack electronic invoicing system integrated with the Halltech Colombia API. Includes OAuth2 authentication, electronic invoice management, a modern admin panel, and an advanced pagination system. Developed with modular architecture and a responsive design.",
@@ -191,16 +179,16 @@ Applied agile methodologies and best development practices within the team.`,
         links: [
           {
             type: "Website",
-            href: "https://automatic.chat",
+            href: "https://youtu.be/iW-4369aX4s?si=qv2bkC-AS_45m26i",
             icon: <Icons.globe className='size-3' />
           }
         ],
         image: "",
-        video: "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739055106/uub8eyjqlktcyyherqfb.mp4"
+        video: "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739250241/FactusVideo_w5gr7l.mp4"
       },
       {
         title: "ScanOrderly",
-        href: "https://chatcollect.com",
+        href: "https://youtu.be/P0YaegQU62I?si=dQHmbjwSiqPC6Bva",
         dates: "📌 2024",
         active: true,
         description: "Custom software primarily designed for restaurants but adaptable to various types of businesses. Real-time order management, inventory control, detailed sales and expense analysis, data export in PDF/Excel, and an intuitive interface. More information is available on the landing page.",
@@ -215,16 +203,16 @@ Applied agile methodologies and best development practices within the team.`,
         links: [
           {
             type: "Website",
-            href: "https://www.youtube.com/watch?v=P0YaegQU62I&t=16s",
+            href: "https://youtu.be/P0YaegQU62I?si=rw9yu2Rid-LMWn8Z",
             icon: <Icons.globe className='size-3' />
           }
         ],
-        image: "",
-        video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4"
+        image: "/softwareScan.png",
+        video: ""
       },
       {
         title: "Admin Panel - Software",
-        href: "https://automatic.chat",
+        href: "https://www.youtube.com/@srossicode",
         dates: "📌 2024",
         active: true,
         description: "Admin panel for managing users, products, categories, sales, purchases, suppliers, customers, analytics, data export in PDF/Excel, intuitive and responsive interface, session handling, and private routes.",
@@ -236,19 +224,12 @@ Applied agile methodologies and best development practices within the team.`,
           "TailwindCSS",
           "Zustand"
         ],
-        links: [
-          {
-            type: "Website",
-            href: "https://automatic.chat",
-            icon: <Icons.globe className='size-3' />
-          }
-        ],
-        image: "",
-        video: "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739055106/uub8eyjqlktcyyherqfb.mp4"
+        image: "/softwareAdmin.png",
+        video: ""
       },
       {
         title: "PixiFi",
-        href: "https://magicui.design",
+        href: "https://pixify-swart.vercel.app/",
         dates: "📌 2023",
         active: true,
         description: "Full-stack e-commerce with a modular and scalable design. Redux combined with Redux Toolkit for efficient global state management. The backend uses Node.js, Express, and MongoDB with Mongoose for data persistence. JWT authentication implementation for private routes.",
@@ -274,12 +255,12 @@ Applied agile methodologies and best development practices within the team.`,
             icon: <Icons.github className='size-3' />
           }
         ],
-        image: "",
-        video: "https://cdn.llm.report/openai-demo.mp4"
+        image: "/pixify.png",
+        video: ""
       },
       {
         title: "ScanOrderly - Landing Page",
-        href: "https://automatic.chat",
+        href: "https://scan-orderly.vercel.app/",
         dates: "📌 2024",
         active: true,
         description: "Landing page for the ScanOrderly software, with detailed information about the product, features, pricing, and contact details. Futuristic and minimalist design, with animations and visual effects. Fully responsive.",
@@ -293,12 +274,12 @@ Applied agile methodologies and best development practices within the team.`,
         links: [
           {
             type: "Website",
-            href: "https://automatic.chat",
+            href: "https://scan-orderly.vercel.app/",
             icon: <Icons.globe className='size-3' />
           }
         ],
         image: "",
-        video: "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739055106/uub8eyjqlktcyyherqfb.mp4"
+        video: "https://res.cloudinary.com/dmfqtt8l2/video/upload/v1739247595/Santino_s_video_nfy7xb.mp4"
       }
     ],
   
