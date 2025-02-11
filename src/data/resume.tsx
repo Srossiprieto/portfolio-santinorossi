@@ -8,9 +8,9 @@ export const DATA = {
   location: "Junín, Buenos Aires Argentina",
   locationLink: "https://www.google.com.ar/maps/place/Jun%C3%ADn",
   description:
-    "Software Developer and CEO of FusionDevs, a company specialized in custom software development. Passionate about creating scalable and high-performance solutions, with a focus on innovation and technical excellence. I combine my technical expertise with business vision to lead projects and teams toward exceptional results.",
+    "Software Developer and CEO of FusionDevs, specializing in custom software development and web solutions. I excel at writing clean code, adapting to different environments, managing projects, and leading teams toward outstanding results. Passionate about innovation and continuous learning, I enjoy sharing knowledge and contributing to developer communities.",
   summary:
-    "Technology entrepreneur with strong full-stack development background and experience in creating customized solutions. As founder and CEO of FusionDevs, I lead a team dedicated to transforming ideas into robust and scalable software products. My approach combines technical expertise with strategic business vision.",
+    "I am a software developer and technology entrepreneur focused on building innovative web solutions. As the founder of FusionDevs, I lead a team dedicated to developing high-performance software products that solve real business challenges. Specializing in full-stack development, I create efficient and scalable applications using modern technologies.",
   avatarUrl: "/me.webp",
   skills: [
     "React",
